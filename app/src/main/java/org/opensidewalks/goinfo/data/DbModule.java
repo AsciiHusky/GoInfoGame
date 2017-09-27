@@ -24,7 +24,7 @@ public class DbModule
 {
 	@Provides @Singleton public static SQLiteOpenHelper sqliteOpenHelper(Context ctx)
 	{
-		return new StreetCompleteOpenHelper(ctx, new TablesHelper[]{ new RoadNamesTablesHelper() });
+		return new GoInfoOpenHelper(ctx, new TablesHelper[]{ new RoadNamesTablesHelper() });
 	}
 
 	@Provides @Singleton public static Serializer serializer()

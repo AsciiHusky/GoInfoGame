@@ -1,4 +1,4 @@
 import:
     - streetcomplete_quests.yaml
-    - streetcomplete.yaml
+    - goinfo.yaml
     - cinnabar-style-7.0.1.yaml

@@ -29,7 +29,7 @@ import org.opensidewalks.goinfo.util.SerializedSavedState;
 		DbModule.class, MetadataModule.class})
 public interface ApplicationComponent
 {
-	void inject(StreetCompleteApplication app);
+	void inject(GoInfoCompleteApplication app);
 
 	void inject(MainActivity mainActivity);
 	void inject(NoteDiscussionForm noteDiscussionForm);

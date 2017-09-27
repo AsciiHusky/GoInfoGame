@@ -28,7 +28,7 @@ import de.westnordost.streetcomplete.R;
 public class TangramQuestSpriteSheetCreator
 {
 	private static final String QUEST_ICONS_FILE = "quests.png";
-	private static final String SPRITESHEET_YAML = "streetcomplete_quests.yaml";
+	private static final String SPRITESHEET_YAML = "goinfo_quests.yaml";
 
 	private final Context context;
 	private final QuestTypes questTypes;

@@ -2,13 +2,13 @@ package org.opensidewalks.goinfo.data;
 
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class StreetCompleteOpenHelperTest extends AndroidDbTestCase
+public class GoInfoOpenHelperTest extends AndroidDbTestCase
 {
 	private SQLiteOpenHelper helper;
 
-	public StreetCompleteOpenHelperTest()
+	public GoInfoOpenHelperTest()
 	{
-		super(StreetCompleteOpenHelper.DB_NAME);
+		super(GoInfoOpenHelper.DB_NAME);
 	}
 
 	@Override public void setUp()

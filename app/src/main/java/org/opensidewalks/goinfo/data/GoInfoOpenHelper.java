@@ -21,7 +21,7 @@ import javax.inject.Singleton;
 import org.opensidewalks.goinfo.data.osm.persist.OsmQuestTable;
 
 @Singleton
-public class StreetCompleteOpenHelper extends SQLiteOpenHelper
+public class GoInfoOpenHelper extends SQLiteOpenHelper
 {
 	public static final String DB_NAME = "streetcomplete.db";
 	public static final int DB_VERSION = 7;
@@ -188,7 +188,7 @@ public class StreetCompleteOpenHelper extends SQLiteOpenHelper
 
 	private final TablesHelper[] extensions;
 
-	public StreetCompleteOpenHelper(Context context, TablesHelper[] extensions)
+	public GoInfoOpenHelper(Context context, TablesHelper[] extensions)
 	{
 		super(context, DB_NAME, null, DB_VERSION);
 		this.extensions = extensions;

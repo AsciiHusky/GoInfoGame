@@ -10,7 +10,7 @@ import javax.inject.Inject;
 
 import org.opensidewalks.goinfo.tangram.TangramQuestSpriteSheetCreator;
 
-public class StreetCompleteApplication extends Application
+public class GoInfoCompleteApplication extends Application
 {
 	@Inject FutureTask<CountryBoundaries> countryBoundariesFuture;
 	@Inject TangramQuestSpriteSheetCreator spriteSheetCreator;

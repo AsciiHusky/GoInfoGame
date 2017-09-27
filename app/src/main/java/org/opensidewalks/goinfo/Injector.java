@@ -8,7 +8,7 @@ public enum Injector
 
 	private ApplicationComponent applicationComponent;
 
-	void initializeApplicationComponent(StreetCompleteApplication app)
+	void initializeApplicationComponent(GoInfoCompleteApplication app)
 	{
 		applicationComponent = DaggerApplicationComponent.builder()
 				.applicationModule(new ApplicationModule(app))

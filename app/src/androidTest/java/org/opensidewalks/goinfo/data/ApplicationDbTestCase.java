@@ -12,7 +12,7 @@ public class ApplicationDbTestCase extends AndroidDbTestCase
 
 	public ApplicationDbTestCase()
 	{
-		super(StreetCompleteOpenHelper.DB_NAME);
+		super(GoInfoOpenHelper.DB_NAME);
 	}
 
 	@Override public void setUp()
