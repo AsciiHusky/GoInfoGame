@@ -39,7 +39,7 @@ import javax.inject.Inject;
 import de.westnordost.osmapi.map.data.LatLon;
 import de.westnordost.osmapi.map.data.OsmElement;
 import org.opensidewalks.goinfo.Injector;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 import org.opensidewalks.goinfo.data.QuestTypes;
 import org.opensidewalks.goinfo.data.meta.CountryInfos;

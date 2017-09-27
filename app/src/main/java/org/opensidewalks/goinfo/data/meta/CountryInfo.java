@@ -26,7 +26,7 @@ public class CountryInfo implements Serializable, Cloneable
 	List<String> orchardProduces;
 	Boolean isAdvisorySpeedLimitKnown;
 
-	// streetcomplete specific (layout files etc)
+	// org.opensidewalks.goinfo specific (layout files etc)
 	String maxspeedLayout;
 	String livingStreetSign;
 	String advisorySpeedLimitLayout;

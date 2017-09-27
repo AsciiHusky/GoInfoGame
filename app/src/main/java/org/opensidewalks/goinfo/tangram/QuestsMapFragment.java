@@ -39,8 +39,8 @@ public class QuestsMapFragment extends MapFragment implements TouchInput.TapResp
 	private static final String MARKER_QUEST_ID = "quest_id";
 	private static final String MARKER_QUEST_GROUP = "quest_group";
 
-	private static final String GEOMETRY_LAYER = "streetcomplete_geometry";
-	private static final String QUESTS_LAYER = "streetcomplete_quests";
+	private static final String GEOMETRY_LAYER = "goinfo_geometry";
+	private static final String QUESTS_LAYER = "goinfo_quests";
 
 	private MapData questsLayer;
 	private MapData geometryLayer;

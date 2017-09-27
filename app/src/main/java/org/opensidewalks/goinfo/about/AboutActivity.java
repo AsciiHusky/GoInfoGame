@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 public class AboutActivity extends AppCompatActivity
 {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.westnordost.streetcomplete"
+    package="de.westnordost.goinfo"
     >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,14 +9,14 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.StreetCompleteApplication"
+        android:name="org.opensidewalks.goinfo.GoInfoCompleteApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar" >
         <activity
             android:windowSoftInputMode="adjustResize"
-            android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.MainActivity"
+            android:name="org.opensidewalks.goinfo.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,18 +37,18 @@
                 <category android:name="android.intent.category.DEFAULT"/>
                 <category android:name="android.intent.category.BROWSABLE" />
                 <!-- see OsmOAuthDialogFragment.CALLBACK_URL -->
-                <data android:scheme="streetcomplete" android:host="oauth" />
+                <data android:scheme="goinfo" android:host="oauth" />
             </intent-filter>
         </activity>
         <activity
             android:name="org.opensidewalks.goinfo.about.AboutActivity"
             android:label="@string/action_about"
             android:parentActivityName="org.opensidewalks.goinfo.MainActivity"/>
-        <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.download.QuestDownloadService" />
-        <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.upload.QuestChangesUploadService" />
+        <service android:name="org.opensidewalks.goinfo.data.download.QuestDownloadService" />
+        <service android:name="org.opensidewalks.goinfo.data.upload.QuestChangesUploadService" />
 
-        <receiver android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserReceiver" />
-        <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserService" />
+        <receiver android:name="org.opensidewalks.goinfo.data.osm.upload.ChangesetAutoCloserReceiver" />
+        <service android:name="org.opensidewalks.goinfo.data.osm.upload.ChangesetAutoCloserService" />
     </application>
 
 </manifest>

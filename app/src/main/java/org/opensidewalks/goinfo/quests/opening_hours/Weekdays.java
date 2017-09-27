@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 public class Weekdays
 {

@@ -45,7 +45,7 @@ public class OsmQuest implements Quest
 	private final Element.Type elementType;
 	private final long elementId;
 
-	// and the changes to the tags (in the future, streetcomplete should probably be able to edit more
+	// and the changes to the tags (in the future, org.opensidewalks.goinfo should probably be able to edit more
 	// than just tags -> osmchange?)
 	private StringMapChanges changes;
 	private String changesSource;

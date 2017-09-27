@@ -1,6 +1,6 @@
 package org.opensidewalks.goinfo;
 
-// import de.westnordost.streetcomplete.DaggerApplicationComponent;
+// import de.westnordost.org.opensidewalks.goinfo.DaggerApplicationComponent;
 
 public enum Injector
 {

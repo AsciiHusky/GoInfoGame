@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.quests.YesNoQuestAnswerFragment;
 
 public class TactilePavingBusStopForm extends YesNoQuestAnswerFragment

@@ -1,6 +1,6 @@
 package org.opensidewalks.goinfo.data.osmnotes;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.data.QuestType;
 import org.opensidewalks.goinfo.quests.AbstractQuestAnswerFragment;
 import org.opensidewalks.goinfo.quests.note_discussion.NoteDiscussionForm;

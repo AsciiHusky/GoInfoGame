@@ -83,7 +83,7 @@
     <string name="offline">"You are offline"</string>
     <string name="confirmation_authorize_now">"You need to authorize with your OSM user account to apply any of your answers for good. Authorize now?"</string>
     <string name="not_authorized">"Not authorized"</string>
-    <string name="version_banned_message">"This version of StreetComplete has been banned from uploading any answers! Please update your version!"</string>
+    <string name="version_banned_message">"This version of GoInfo has been banned from uploading any answers! Please update your version!"</string>
     <string name="no_gps_no_quests">"To scan for quests around you automatically, turn on location"</string>
     <string name="nothing_more_to_download">"No further quests available"</string>
     <string name="later">"Later"</string>
@@ -160,7 +160,7 @@ Your location is only used to automatically scan for quests around you. No worri
 &lt;p&gt;&lt;b&gt;Data Usage&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;
 As mentioned, the app directly communicates with OSM infrastructure. That is, with the &lt;a href=\"http://wiki.openstreetmap.org/wiki/Overpass_API\"&gt;Overpass API&lt;/a&gt; for downloading quests  (which is anonymous) and with the &lt;a href=\"http://wiki.openstreetmap.org/wiki/API_v0.6\"&gt;OSM API&lt;/a&gt; for uploading changes.&lt;br/&gt;
-However, before uploading your changes, the app checks with a &lt;a href=\"http://www.westnordost.de/streetcomplete/banned_versions.txt\"&gt;simple text file&lt;/a&gt; on my server whether it has been banned from uploading any changes. This is a precautionary measure to be able to keep versions of the app that turn out to have critical bugs from possibly corrupting OSM data.&lt;br/&gt;
+However, before uploading your changes, the app checks with a &lt;a href=\"http://www.westnordost.de/goinfo/banned_versions.txt\"&gt;simple text file&lt;/a&gt; on my server whether it has been banned from uploading any changes. This is a precautionary measure to be able to keep versions of the app that turn out to have critical bugs from possibly corrupting OSM data.&lt;br/&gt;
 &lt;/p&gt;
 &lt;p&gt;
 To display the map, vector tiles are retrieved from the &lt;a href=\"https://mapzen.com/projects/vector-tiles/\"&gt;Mapzen vector tile service&lt;/a&gt;, which is anonymous. The service logs tile requests to understand which areas are popular for pre-caching and performance improvements. Their platform also logs IP addresses and all their hosting is at Amazon so they are subject to what they might do.
@@ -227,7 +227,7 @@ If there are no signs, default speed limits apply."</string>
     <string name="quest_oneway_title">"Is this a one-way street?"</string>
     <string name="quest_address_title">"What is the house number of this building?"</string>
     <string name="store_listing_short_description">"OpenStreetMap surveyor app"</string>
-    <string name="store_listing_full_description">"Help to improve the OpenStreetMap with StreetComplete!
+    <string name="store_listing_full_description">"Help to improve the OpenStreetMap with GoInfo!
 
 This app finds incomplete and extendable data in your vicinity and displays it on a map as markers. Each of those is solvable by answering a simple question to complete the info on site.
 
@@ -237,7 +237,7 @@ The info you enter is then directly added to the OpenStreetMap in your name, wit
     <string name="quest_name_noName_confirmation_positive">"Yes, no name"</string>
     <string name="quest_openingHours_add_times">"Add opening times"</string>
     <string name="crash_message">"Would you please send the error report to the developer?"</string>
-    <string name="crash_title">"Oh no, StreetComplete crashed last time!"</string>
+    <string name="crash_title">"Oh no, GoInfo crashed last time!"</string>
     <string name="crash_compose_email">"Compose Email"</string>
     <string name="no_email_client">"You have no email client installed."</string>
     <string name="pref_title_keep_screen_on">"Keep screen on"</string>
@@ -318,7 +318,7 @@ Otherwise, you can download another keyboard in the app store. Popular keyboards
     <string name="quest_fireHydrant_type_underground">Underground</string>
     <string name="quest_fireHydrant_type_wall">Wall</string>
     <string name="quest_fireHydrant_type_pond">Pond</string>
-    <string name="credits_contributors">"See the &lt;a href=\"https://github.com/westnordost/StreetComplete/graphs/contributors\"&gt;complete list on GitHub&lt;/a&gt;."</string>
+    <string name="credits_contributors">"See the &lt;a href=\"https://github.com/westnordost/GoInfo/graphs/contributors\"&gt;complete list on GitHub&lt;/a&gt;."</string>
     <string name="credits_translations">"See the &lt;a href=\"https://poeditor.com/projects/view?id=97843\"&gt;project on POEditor&lt;/a&gt; for a complete list."</string>
     <string name="credits_translations_title">Translations</string>
     <string name="credits_contributors_title">Code Contributors</string>

@@ -16,7 +16,7 @@ public class UserChangesetsDaoTest extends TestCase
 	public void testAmount()
 	{
 		OsmConnection osm = new OsmConnection("https://master.apis.dev.openstreetmap.org/api/0.6/",
-				"StreetComplete test case", null);
+				"GoInfo test case", null);
 		long userId = 12;
 
 		UserDao userDao = new UserDao(osm);

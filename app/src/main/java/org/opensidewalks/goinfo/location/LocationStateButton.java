@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 
 import java.util.Arrays;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 /**
  * An image button which shows the current location state

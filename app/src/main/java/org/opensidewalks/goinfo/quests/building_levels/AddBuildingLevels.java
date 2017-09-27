@@ -10,7 +10,7 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.data.osm.SimpleOverpassQuestType;
 
 public class AddBuildingLevels extends SimpleOverpassQuestType

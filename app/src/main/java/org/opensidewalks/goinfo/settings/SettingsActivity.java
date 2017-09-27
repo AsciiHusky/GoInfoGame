@@ -6,12 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.oauth.OsmOAuthDialogFragment;
 
 public class SettingsActivity extends AppCompatActivity implements OsmOAuthDialogFragment.Listener
 {
-	public static final String EXTRA_LAUNCH_AUTH = "de.westnordost.streetcomplete.settings.launch_auth";
+	public static final String EXTRA_LAUNCH_AUTH = "de.westnordost.org.opensidewalks.goinfo.settings.launch_auth";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)

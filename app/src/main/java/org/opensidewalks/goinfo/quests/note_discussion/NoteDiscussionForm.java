@@ -16,7 +16,7 @@ import java.util.Date;
 import javax.inject.Inject;
 
 import org.opensidewalks.goinfo.Injector;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.data.osmnotes.OsmNoteQuestDao;
 import org.opensidewalks.goinfo.quests.AbstractQuestAnswerFragment;
 import org.opensidewalks.goinfo.util.InlineAsyncTask;

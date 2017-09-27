@@ -21,7 +21,7 @@ import org.opensidewalks.goinfo.location.LocationUtil;
 import org.opensidewalks.goinfo.location.SingleLocationRequest;
 import org.opensidewalks.goinfo.view.CompassView;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.location.LocationRequestFragment;
 import org.opensidewalks.goinfo.location.LocationStateButton;
 

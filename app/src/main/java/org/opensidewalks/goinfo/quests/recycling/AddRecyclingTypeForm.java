@@ -2,7 +2,7 @@ package org.opensidewalks.goinfo.quests.recycling;
 
 import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 public class AddRecyclingTypeForm extends ImageListQuestAnswerFragment
 {

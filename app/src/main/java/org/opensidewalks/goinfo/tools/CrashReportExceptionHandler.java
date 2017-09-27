@@ -20,8 +20,8 @@ import java.util.Arrays;
 import javax.inject.Inject;
 
 import org.opensidewalks.goinfo.ApplicationConstants;
-import de.westnordost.streetcomplete.BuildConfig;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.BuildConfig;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.util.StreamUtils;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 

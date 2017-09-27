@@ -26,7 +26,7 @@ import javax.inject.Inject;
 
 import de.westnordost.osmapi.map.data.LatLon;
 import org.opensidewalks.goinfo.Injector;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.data.meta.Abbreviations;
 import org.opensidewalks.goinfo.data.meta.AbbreviationsByLocale;
 import org.opensidewalks.goinfo.data.osm.ElementGeometry;

@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 import org.opensidewalks.goinfo.data.meta.AbbreviationsByLocale;
 

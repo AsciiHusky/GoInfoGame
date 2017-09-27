@@ -12,7 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.quests.AbstractQuestFormAnswerFragment;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 

@@ -8,8 +8,8 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
 import org.opensidewalks.goinfo.ApplicationConstants;
-import de.westnordost.streetcomplete.BuildConfig;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.BuildConfig;
+import de.westnordost.goinfo.R;
 
 public class AboutFragment extends PreferenceFragment
 {
@@ -77,7 +77,7 @@ public class AboutFragment extends PreferenceFragment
 					@Override public boolean onPreferenceClick(Preference preference)
 					{
 						Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-								Uri.parse("https://github.com/westnordost/StreetComplete/"));
+								Uri.parse("https://github.com/opensidewalks/GoInfoGame/"));
 						startActivity(browserIntent);
 						return true;
 					}
@@ -89,7 +89,7 @@ public class AboutFragment extends PreferenceFragment
 			@Override public boolean onPreferenceClick(Preference preference)
 			{
 				Intent browserIntent = new Intent(Intent.ACTION_VIEW,
-						Uri.parse("https://github.com/westnordost/StreetComplete/issues/"));
+						Uri.parse("https://github.com/opensidewalks/GoInfoGame/issues/"));
 				startActivity(browserIntent);
 				return true;
 			}

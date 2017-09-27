@@ -11,7 +11,7 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 public class AddMaxSpeed extends SimpleOverpassQuestType
 {

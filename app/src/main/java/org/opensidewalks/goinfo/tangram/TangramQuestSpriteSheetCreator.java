@@ -23,7 +23,7 @@ import java.util.Set;
 
 import javax.inject.Inject;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 public class TangramQuestSpriteSheetCreator
 {

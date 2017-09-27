@@ -192,7 +192,7 @@ public class CreateNoteUploadTest extends TestCase
 		assertNotNull(makeCreateNoteUpload().uploadCreateNote(createNote));
 
 		verify(notesDao).create(createNote.position,
-				"Unable to answer \"What?\" for https://www.openstreetmap.org/way/5 via StreetComplete:\n\njo ho");
+				"Unable to answer \"What?\" for https://www.openstreetmap.org/way/5 via GoInfo:\n\njo ho");
 
 		verifyNoteInsertedIntoDb(createNote.id, note);
 	}

@@ -15,7 +15,7 @@ import org.opensidewalks.goinfo.data.QuestStatus;
 import org.opensidewalks.goinfo.data.osmnotes.OsmNoteQuest;
 import org.opensidewalks.goinfo.data.osmnotes.OsmNoteQuestDao;
 import org.opensidewalks.goinfo.oauth.OAuthPrefs;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.oauth.OsmOAuthDialogFragment;
 
 public class SettingsFragment extends PreferenceFragment implements SharedPreferences.OnSharedPreferenceChangeListener

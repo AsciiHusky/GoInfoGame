@@ -23,7 +23,7 @@ import org.opensidewalks.goinfo.data.osm.persist.OsmQuestTable;
 @Singleton
 public class GoInfoOpenHelper extends SQLiteOpenHelper
 {
-	public static final String DB_NAME = "streetcomplete.db";
+	public static final String DB_NAME = "org.opensidewalks.goinfo.db";
 	public static final int DB_VERSION = 7;
 
 	private static final String OSM_QUESTS_CREATE_PARAMS = " (" +

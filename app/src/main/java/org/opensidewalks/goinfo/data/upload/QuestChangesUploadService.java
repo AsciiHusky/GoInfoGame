@@ -140,7 +140,7 @@ public class QuestChangesUploadService extends IntentService
 		HttpURLConnection connection = null;
 		try
 		{
-			URL url = new URL("http://www.westnordost.de/streetcomplete/banned_versions.txt");
+			URL url = new URL("http://www.westnordost.de/org.opensidewalks.goinfo/banned_versions.txt");
 			connection = (HttpURLConnection) url.openConnection();
 			BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
 			String line;

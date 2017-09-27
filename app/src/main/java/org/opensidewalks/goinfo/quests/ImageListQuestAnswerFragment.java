@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 
 /**
  * Abstract class for quests with a list of images and one to select.

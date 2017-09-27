@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import javax.inject.Inject;
 
 import org.opensidewalks.goinfo.Injector;
-import de.westnordost.streetcomplete.R;
+import de.westnordost.goinfo.R;
 import org.opensidewalks.goinfo.quests.AbstractQuestFormAnswerFragment;
 import org.opensidewalks.goinfo.util.Serializer;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
