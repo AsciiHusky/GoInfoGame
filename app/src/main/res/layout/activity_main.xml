@@ -4,12 +4,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".MainActivity"
+    tools:context="org.westnordost.streetcomplete.MainActivity"
     >
 
     <fragment
         android:id="@+id/map_fragment"
-        android:name="de.westnordost.streetcomplete.tangram.QuestsMapFragment"
+        android:name="org.westnordost.streetcomplete.tangram.QuestsMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/topPanel"
@@ -33,7 +33,7 @@
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             android:elevation="4dp">
 
-            <de.westnordost.streetcomplete.statistics.AnswersCounter
+            <org.westnordost.streetcomplete.statistics.AnswersCounter
                 android:id="@+id/answersCounter"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

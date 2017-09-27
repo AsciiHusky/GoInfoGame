@@ -9,14 +9,14 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="de.westnordost.streetcomplete.StreetCompleteApplication"
+        android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.StreetCompleteApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar" >
         <activity
             android:windowSoftInputMode="adjustResize"
-            android:name="de.westnordost.streetcomplete.MainActivity"
+            android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,10 +24,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".settings.SettingsActivity"
+            android:name="org.westnordost.streetcomplete.settings.SettingsActivity"
             android:label="@string/action_settings"
             android:launchMode="singleTask"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="org.westnordost.streetcomplete.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -41,14 +41,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".about.AboutActivity"
+            android:name="org.westnordost.streetcomplete.about.AboutActivity"
             android:label="@string/action_about"
-            android:parentActivityName=".MainActivity"/>
-        <service android:name="de.westnordost.streetcomplete.data.download.QuestDownloadService" />
-        <service android:name="de.westnordost.streetcomplete.data.upload.QuestChangesUploadService" />
+            android:parentActivityName="org.westnordost.streetcomplete.MainActivity"/>
+        <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.download.QuestDownloadService" />
+        <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.upload.QuestChangesUploadService" />
 
-        <receiver android:name="de.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserReceiver" />
-        <service android:name="de.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserService" />
+        <receiver android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserReceiver" />
+        <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserService" />
     </application>
 
 </manifest>

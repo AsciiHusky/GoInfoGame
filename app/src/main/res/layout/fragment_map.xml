@@ -12,7 +12,7 @@
 
     <fragment
         android:id="@+id/controls_fragment"
-        android:name="de.westnordost.streetcomplete.tangram.MapControlsFragment"
+        android:name="org.westnordost.streetcomplete.tangram.MapControlsFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/openstreetmapLink"

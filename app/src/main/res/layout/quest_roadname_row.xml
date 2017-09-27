@@ -27,7 +27,7 @@
         android:paddingEnd="14dp"
         >
 
-        <de.westnordost.streetcomplete.quests.road_name.AutoCorrectAbbreviationsEditText
+        <org.westnordost.streetcomplete.quests.road_name.AutoCorrectAbbreviationsEditText
             android:id="@+id/nameInput"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
