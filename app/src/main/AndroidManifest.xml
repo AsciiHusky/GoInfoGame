@@ -24,10 +24,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.westnordost.streetcomplete.settings.SettingsActivity"
+            android:name="org.opensidewalks.streetcomplete.settings.SettingsActivity"
             android:label="@string/action_settings"
             android:launchMode="singleTask"
-            android:parentActivityName="org.westnordost.streetcomplete.MainActivity">
+            android:parentActivityName="org.opensidewalks.streetcomplete.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MANAGE_NETWORK_USAGE" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -41,9 +41,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.westnordost.streetcomplete.about.AboutActivity"
+            android:name="org.opensidewalks.streetcomplete.about.AboutActivity"
             android:label="@string/action_about"
-            android:parentActivityName="org.westnordost.streetcomplete.MainActivity"/>
+            android:parentActivityName="org.opensidewalks.streetcomplete.MainActivity"/>
         <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.download.QuestDownloadService" />
         <service android:name="de.westnordost.streetcomplete.org.westnordost.streetcomplete.data.upload.QuestChangesUploadService" />
 

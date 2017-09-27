@@ -28,7 +28,7 @@
     <PreferenceCategory
         android:title="@string/pref_category_cache">
 
-        <org.westnordost.streetcomplete.settings.NumberPickerPreference
+        <org.opensidewalks.streetcomplete.settings.NumberPickerPreference
             android:key="map.tilecache"
             android:title="@string/pref_title_map_cache"
             android:summary="@string/pref_tilecache_size_summary"
