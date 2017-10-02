@@ -9,10 +9,10 @@
              android:layout_width="match_parent"
              android:layout_height="wrap_content"/>
 
-    <de.westnordost.streetcomplete.view.SlidingRelativeLayout
+    <org.opensidewalks.goinfo.view.SlidingRelativeLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    </de.westnordost.streetcomplete.view.SlidingRelativeLayout>
+    </org.opensidewalks.goinfo.view.SlidingRelativeLayout>
 
 </LinearLayout>

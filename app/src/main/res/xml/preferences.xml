@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:custom="http://schemas.android.com/apk/res/de.westnordost.streetcomplete">
+                  xmlns:custom="http://schemas.android.com/apk/res/org.opensidewalks.goinfo">
 
     <PreferenceCategory
         android:key="communication"
@@ -28,7 +28,7 @@
     <PreferenceCategory
         android:title="@string/pref_category_cache">
 
-        <de.westnordost.streetcomplete.settings.NumberPickerPreference
+        <org.opensidewalks.goinfo.settings.NumberPickerPreference
             android:key="map.tilecache"
             android:title="@string/pref_title_map_cache"
             android:summary="@string/pref_tilecache_size_summary"

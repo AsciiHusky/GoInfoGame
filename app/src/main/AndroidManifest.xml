@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.westnordost.streetcomplete"
+    package="org.opensidewalks.goinfo"
     >
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,14 +9,14 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
-        android:name="de.westnordost.streetcomplete.StreetCompleteApplication"
+        android:name="org.opensidewalks.goinfo.StreetCompleteApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme.NoActionBar" >
         <activity
             android:windowSoftInputMode="adjustResize"
-            android:name="de.westnordost.streetcomplete.MainActivity"
+            android:name="org.opensidewalks.goinfo.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,11 +44,11 @@
             android:name=".about.AboutActivity"
             android:label="@string/action_about"
             android:parentActivityName=".MainActivity"/>
-        <service android:name="de.westnordost.streetcomplete.data.download.QuestDownloadService" />
-        <service android:name="de.westnordost.streetcomplete.data.upload.QuestChangesUploadService" />
+        <service android:name="org.opensidewalks.goinfo.data.download.QuestDownloadService" />
+        <service android:name="org.opensidewalks.goinfo.data.upload.QuestChangesUploadService" />
 
-        <receiver android:name="de.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserReceiver" />
-        <service android:name="de.westnordost.streetcomplete.data.osm.upload.ChangesetAutoCloserService" />
+        <receiver android:name="org.opensidewalks.goinfo.data.osm.upload.ChangesetAutoCloserReceiver" />
+        <service android:name="org.opensidewalks.goinfo.data.osm.upload.ChangesetAutoCloserService" />
     </application>
 
 </manifest>
