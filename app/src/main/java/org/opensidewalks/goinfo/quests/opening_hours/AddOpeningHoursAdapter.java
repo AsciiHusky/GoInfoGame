@@ -19,7 +19,7 @@ import java.text.DateFormatSymbols;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 

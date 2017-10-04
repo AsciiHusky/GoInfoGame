@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.NumberPicker;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 /**
  * Preference that shows a simple number picker

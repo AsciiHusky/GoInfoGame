@@ -4,7 +4,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 
-import de.westnordost.goinfo.BuildConfig;
+import org.opensidewalks.goinfo.BuildConfig;
 
 public class ApplicationConstants
 {

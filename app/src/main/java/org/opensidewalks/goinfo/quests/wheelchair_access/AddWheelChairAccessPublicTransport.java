@@ -8,7 +8,7 @@ import java.util.Map;
 
 import javax.inject.Inject;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.data.osm.SimpleOverpassQuestType;
 import org.opensidewalks.goinfo.data.osm.changes.StringMapChangesBuilder;
 

@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 

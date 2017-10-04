@@ -11,7 +11,7 @@ import android.widget.NumberPicker;
 
 import java.util.Arrays;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 /** A dialog in which you can select one value from a range of values */
 public class ValuePickerDialog extends AlertDialog implements DialogInterface.OnClickListener

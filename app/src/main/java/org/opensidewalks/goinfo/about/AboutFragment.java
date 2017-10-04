@@ -8,8 +8,8 @@ import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
 import org.opensidewalks.goinfo.ApplicationConstants;
-import de.westnordost.goinfo.BuildConfig;
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.BuildConfig;
+import org.opensidewalks.goinfo.R;
 
 public class AboutFragment extends PreferenceFragment
 {

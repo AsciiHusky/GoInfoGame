@@ -1,6 +1,6 @@
 package org.opensidewalks.goinfo.quests.crossing_type;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 
 public class AddCrossingTypeForm extends ImageListQuestAnswerFragment

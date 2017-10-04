@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.Arrays;
 import java.util.Collection;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.AbstractQuestFormAnswerFragment;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 

@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 
 public class GroupedImageSelectAdapter extends RecyclerView.Adapter<GroupedImageSelectAdapter.ViewHolder>

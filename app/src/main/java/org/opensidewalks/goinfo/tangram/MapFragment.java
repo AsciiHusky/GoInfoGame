@@ -41,7 +41,7 @@ import org.opensidewalks.goinfo.Prefs;
 import java.io.File;
 
 import de.westnordost.osmapi.map.data.LatLon;
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.util.SphericalEarthMath;
 
 import static android.content.Context.SENSOR_SERVICE;

@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 public class LeaveNoteDialog extends DialogFragment
 {

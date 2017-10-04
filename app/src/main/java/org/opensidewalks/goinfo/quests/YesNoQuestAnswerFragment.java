@@ -5,7 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 /** Abstract base class for dialogs in which the user answers a yes/no quest */
 public class YesNoQuestAnswerFragment extends AbstractQuestAnswerFragment

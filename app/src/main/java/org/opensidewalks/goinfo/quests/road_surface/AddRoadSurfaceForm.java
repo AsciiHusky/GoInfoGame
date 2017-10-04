@@ -10,7 +10,7 @@ import org.opensidewalks.goinfo.view.GroupedImageSelectAdapter;
 
 import java.util.Arrays;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.AbstractQuestFormAnswerFragment;
 
 public class AddRoadSurfaceForm extends AbstractQuestFormAnswerFragment

@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "de.westnordost.org.opensidewalks.goinfo"
+        applicationId "org.opensidewalks.goinfo"
         minSdkVersion 17
         targetSdkVersion 26
         versionCode 200

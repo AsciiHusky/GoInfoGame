@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 /** Abstract base class for dialogs in which the user answers a quest with a form he has to fill
  *  out */

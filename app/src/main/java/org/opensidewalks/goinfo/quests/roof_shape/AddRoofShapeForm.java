@@ -9,7 +9,7 @@ import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 
 import java.util.ArrayList;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 public class AddRoofShapeForm extends ImageListQuestAnswerFragment
 {

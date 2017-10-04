@@ -60,8 +60,8 @@ import javax.inject.Inject;
 import de.westnordost.osmapi.common.errors.OsmApiReadResponseException;
 import de.westnordost.osmapi.common.errors.OsmAuthorizationException;
 import de.westnordost.osmapi.common.errors.OsmConnectionException;
-import de.westnordost.goinfo.BuildConfig;
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.BuildConfig;
+import org.opensidewalks.goinfo.R;
 
 import org.opensidewalks.goinfo.about.AboutActivity;
 import org.opensidewalks.goinfo.data.Quest;

@@ -1,6 +1,6 @@
 package org.opensidewalks.goinfo.quests.parking_type;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 
 public class AddParkingTypeForm extends ImageListQuestAnswerFragment

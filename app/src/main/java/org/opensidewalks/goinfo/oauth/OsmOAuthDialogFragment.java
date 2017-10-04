@@ -32,7 +32,7 @@ import de.westnordost.osmapi.user.Permission;
 import de.westnordost.osmapi.user.PermissionsDao;
 import de.westnordost.osmapi.user.UserDao;
 import de.westnordost.osmapi.user.UserDetails;
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.data.OsmModule;
 import org.opensidewalks.goinfo.util.InlineAsyncTask;
 import oauth.signpost.OAuthConsumer;

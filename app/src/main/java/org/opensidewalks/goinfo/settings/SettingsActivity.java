@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.oauth.OsmOAuthDialogFragment;
 
 public class SettingsActivity extends AppCompatActivity implements OsmOAuthDialogFragment.Listener

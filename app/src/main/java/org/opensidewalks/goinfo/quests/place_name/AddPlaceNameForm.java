@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.AbstractQuestFormAnswerFragment;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 

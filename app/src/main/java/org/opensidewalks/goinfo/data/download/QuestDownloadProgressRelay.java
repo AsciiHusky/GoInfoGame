@@ -7,7 +7,7 @@ import android.content.Intent;
 
 import org.opensidewalks.goinfo.MainActivity;
 import org.opensidewalks.goinfo.ApplicationConstants;
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 /** Threadsafe relay for QuestDownloadProgressListener. Also, it can show a notification with
  *  progress. See startForeground/stopForeground

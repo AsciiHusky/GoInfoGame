@@ -1,6 +1,6 @@
 package org.opensidewalks.goinfo.quests.fire_hydrant;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 
 public class AddFireHydrantTypeForm extends ImageListQuestAnswerFragment

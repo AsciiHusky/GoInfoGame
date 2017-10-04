@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import org.opensidewalks.goinfo.quests.AbstractQuestAnswerFragment;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 public class WheelchairAccessAnswerFragment extends AbstractQuestAnswerFragment
 {

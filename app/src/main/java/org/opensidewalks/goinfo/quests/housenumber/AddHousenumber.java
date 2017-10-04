@@ -11,7 +11,7 @@ import javax.inject.Inject;
 
 import de.westnordost.osmapi.map.data.BoundingBox;
 import de.westnordost.osmapi.map.data.Element;
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.data.osm.ElementGeometry;
 import org.opensidewalks.goinfo.data.osm.OsmElementQuestType;
 import org.opensidewalks.goinfo.data.osm.changes.StringMapChangesBuilder;

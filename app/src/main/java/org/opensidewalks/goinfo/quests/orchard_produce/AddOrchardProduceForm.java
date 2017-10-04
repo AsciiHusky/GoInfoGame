@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.quests.ImageListQuestAnswerFragment;
 
 public class AddOrchardProduceForm extends ImageListQuestAnswerFragment

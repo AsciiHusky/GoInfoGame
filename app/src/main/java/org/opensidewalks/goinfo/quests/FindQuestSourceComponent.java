@@ -23,7 +23,7 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 
 import org.opensidewalks.goinfo.data.osmnotes.OsmNoteQuestDao;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;

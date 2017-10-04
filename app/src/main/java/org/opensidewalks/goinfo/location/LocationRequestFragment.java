@@ -14,7 +14,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AlertDialog;
 
-import de.westnordost.goinfo.R;
+import org.opensidewalks.goinfo.R;
 import org.opensidewalks.goinfo.view.dialogs.AlertDialogBuilder;
 
 /** Manages the process to ensure that the app can access the user's location. Two steps:
