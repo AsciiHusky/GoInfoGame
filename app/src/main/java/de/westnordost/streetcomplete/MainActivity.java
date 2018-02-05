@@ -85,7 +85,7 @@ import de.westnordost.streetcomplete.view.dialogs.AlertDialogBuilder;
 public class MainActivity extends AppCompatActivity implements
 		OsmQuestAnswerListener, VisibleQuestListener, QuestsMapFragment.Listener, MapFragment.Listener
 {
-	@Inject CrashReportExceptionHandler crashReportExceptionHandler;
+ Queue<Quest> questsToDo;	@Inject CrashReportExceptionHandler crashReportExceptionHandler;
 
 	@Inject LocationRequestFragment locationRequestFragment;
 	@Inject QuestAutoSyncer questAutoSyncer;
@@ -110,7 +110,6 @@ public class MainActivity extends AppCompatActivity implements
 	private ProgressBar progressBar;
 	private AnswersCounter answersCounter;
 
-	private Queue<Quest> questsToDo;
 
 	private boolean downloadServiceIsBound;
 	private QuestDownloadService.Interface downloadService;

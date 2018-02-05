@@ -43,7 +43,7 @@ public class FiltersParser
 		}
 	}
 
-	private int expectAnyNumberOfSpaces()
+	private int expectAnyNumberOfSpaces() throws ParseException
 	{
 		int count = 0;
 		while(input.nextIsAndAdvance(' ')) count++;
