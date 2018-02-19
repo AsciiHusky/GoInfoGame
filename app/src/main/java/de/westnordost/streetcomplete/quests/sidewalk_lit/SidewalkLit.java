@@ -11,7 +11,7 @@ import de.westnordost.streetcomplete.data.osm.SimpleOverpassQuestType;
 import de.westnordost.streetcomplete.data.osm.changes.StringMapChangesBuilder;
 import de.westnordost.streetcomplete.data.osm.download.OverpassMapDataDao;
 import de.westnordost.streetcomplete.quests.AbstractQuestAnswerFragment;
-import de.westnordost.streetcomplete.quests.RangeQuestAnswerFragment;
+//import de.westnordost.streetcomplete.quests.RangeQuestAnswerFragment;
 //import de.westnordost.streetcomplete.quests.TwoLevelQuestAnswerFragment;
 import de.westnordost.streetcomplete.quests.YesNoQuestAnswerFragment;
 
@@ -21,20 +21,16 @@ public class SidewalkLit extends SimpleOverpassQuestType
 
     @Override protected String getTagFilters()
     {
-       //return "nodes with (public_transport=platform or (highway=bus_stop and public_transport!=stop_position)) and !bench";
-       // return "nodes with way[foot=yes][!lit]";
-        //return "ways with [highway="footway"] or way[foot="yes"] and !lit]";
-
-        return "nodes, ways with (" +
-                "((highway=footway))" +
+       return "ways with (" +
+                "((highway=footway) and (footway=sidewalk)" +
                 " or way=foot" +
-                ") and !lit";
+                ") and !lit)";
     }
 
 
     public AbstractQuestAnswerFragment createForm()
     {
-        return new RangeQuestAnswerFragment();
+        return new YesNoQuestAnswerFragment();
     }
 
     public void applyAnswerTo(Bundle answer, StringMapChangesBuilder changes)

@@ -15,15 +15,16 @@ import de.westnordost.streetcomplete.quests.YesNoQuestAnswerFragment;
 
 public class CheckCurbRamps_TactilePavings extends SimpleOverpassQuestType
 {
-	@Inject public CheckCurbRamps_TactilePavings(OverpassMapDataDao overpassServer) { super(overpassServer); }
+	@Inject public CheckCurbRamps_TactilePavings(OverpassMapDataDao overpassServer)
+	{ super(overpassServer); }
 
 	@Override protected String getTagFilters()
 	{
 		//return "nodes, ways with "(("footway"="crossing") "and" ("kerb"="lowered"))";
 
 		return "nodes, ways with (" +
-				"((footway=crossing) and (kerb=lowered))" +
-				 "and (tactile_paving= No))";
+				"(kerb=lowered)" +
+				 "and (!tactile_paving))";
 	}
 
 	public AbstractQuestAnswerFragment createForm()

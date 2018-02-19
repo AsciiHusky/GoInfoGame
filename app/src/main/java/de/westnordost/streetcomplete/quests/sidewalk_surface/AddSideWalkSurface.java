@@ -22,24 +22,14 @@ public class AddSideWalkSurface extends SimpleOverpassQuestType
 {
     // well, all roads have surfaces, what I mean is that not all ways with highway key are
     // "something with a surface"
-  /*  private static final String[] ROADS_WITH_SURFACES = {
-            // "trunk","trunk_link","motorway","motorway_link", // too much, motorways are almost by definition asphalt (or concrete)
-            "primary", "primary_link",
-            "secondary", "secondary_link", "tertiary", "tertiary_link",
-            "unclassified", "residential", "living_street", "pedestrian",
-            "track", "road",
-			*//*"service", *//* // this is too much, and the information value is very low
-    };*/
-
     @Inject
     public AddSideWalkSurface(OverpassMapDataDao overpassServer) { super(overpassServer); }
 
     @Override protected String getTagFilters()
     {
-        return "nodes, ways with (" +
+        return "ways with (" +
                 "((highway=footway) and (footway=sidewalk)" +
-                " or way=foot and foot=sidewalk" +
-                ") and !surface)";
+                " or foot=yes) and !surface)";
     }
 
     public AbstractQuestAnswerFragment createForm()
@@ -57,7 +47,7 @@ public class AddSideWalkSurface extends SimpleOverpassQuestType
     @Override public int getTitle(Map<String, String> tags)
     {
         boolean hasName = tags.containsKey("name");
-        if(hasName) return R.string.quest_sideWalk_name_title;
+        if(hasName) return R.string.quest_sideWalk_title;
         else        return R.string.quest_sideWalk_title;
     }
 }

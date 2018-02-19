@@ -23,7 +23,6 @@ public abstract class SimpleOverpassQuestType implements OsmElementQuestType
 	{
 		this.overpassServer = overpassServer;
 		filter = new FiltersParser().parse(getTagFilters());
-		Log.d("Nodes and ways", filter.toString());
 	}
 
 	/** @return a query string that is accepted by Overpass and does not exceed the given bbox */

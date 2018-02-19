@@ -13,7 +13,7 @@ import de.westnordost.streetcomplete.data.QuestTypes;
 import de.westnordost.streetcomplete.data.osm.download.OverpassMapDataDao;
 import de.westnordost.streetcomplete.data.osmnotes.OsmNoteQuestType;
 import de.westnordost.streetcomplete.quests.baby_changing_table.AddBabyChangingTable;
-import de.westnordost. streetcomplete.quests.bike_parking_capacity.AddBikeParkingCapacity;
+import de.westnordost.streetcomplete.quests.bike_parking_capacity.AddBikeParkingCapacity;
 import de.westnordost.streetcomplete.quests.bike_parking_cover.AddBikeParkingCover;
 import de.westnordost.streetcomplete.quests.building_levels.AddBuildingLevels;
 import de.westnordost.streetcomplete.quests.bus_stop_lit.AddBusStopLit;
@@ -47,15 +47,10 @@ public class QuestModule
 				new CheckCurbRamps_TactilePavings(o),
 				new AddBusStopBench(o),
 				new AddBusStopShelter(o),
-				new AddBusStopLit(o),
-				new AddBin(o)
+				new AddBusStopLit(o)
+				//new AddBin(o)
+				//new CheckCurbRamps_TactilePavings(o)
 		};
-				//new AddPassengerInformationDisplay(o),
-				//new AddTactilePavingBusStop(o)
-
-				//new SidewalkLit(o)
-
-
 		return new QuestTypes(Arrays.asList(questTypesOrderedByImportance));
 	}
 
