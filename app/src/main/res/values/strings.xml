@@ -252,7 +252,7 @@ The info you enter is then directly added to the OpenStreetMap in your name, wit
     <string name="quest_bin_title">"Does this bus stop have a waste bin?"</string>
     <string name="quest_busStopLit_title">"Is there lighting at this Bus stop at night?"</string>
     <string name="quest_busStopBench_title">"Does this bus stop have a bench?"</string>
-    <string name="quest_SidewalkLit_title">"Is there lightin0g along this sidewalk at night?"</string>
+    <string name="quest_SidewalkLit_title">"Is there lighting along this sidewalk at night?"</string>
     <string name="quest_bikeParkingCapacity_title">"How many bikes can be parked here?"</string>
     <string name="quest_passengerInformationDisplay_title">"Does this bus stop have an electronic information display?"</string>
     <string name="quest_bikeParkingCapacity_hint">"Note that most normal stands can be used from both sides to park each one bike."</string>
