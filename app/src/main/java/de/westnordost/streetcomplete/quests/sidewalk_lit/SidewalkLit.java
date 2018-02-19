@@ -23,7 +23,7 @@ public class SidewalkLit extends SimpleOverpassQuestType
     {
        return "ways with (" +
                 "((highway=footway) and (footway=sidewalk)" +
-                " or way=foot" +
+                " or foot=yes" +
                 ") and !lit)";
     }
 

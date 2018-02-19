@@ -22,7 +22,7 @@ public class CheckCurbRamps_TactilePavings extends SimpleOverpassQuestType
 	{
 		//return "nodes, ways with "(("footway"="crossing") "and" ("kerb"="lowered"))";
 
-		return "nodes, ways with (" +
+		return "nodes with (" +
 				"(kerb=lowered)" +
 				 "and (!tactile_paving))";
 	}
@@ -39,7 +39,7 @@ public class CheckCurbRamps_TactilePavings extends SimpleOverpassQuestType
 	}
 
 	@Override public String getCommitMessage() { return "Add curb ramps"; }
-	@Override public int getIcon() { return R.drawable.ic_quest_label; }
+	@Override public int getIcon() { return R.drawable.ic_quest_street_surface_paved_detail; }
 	@Override public int getTitle(Map<String, String> tags)
 	{
 		boolean hasName = tags.containsKey("name");
