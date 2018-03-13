@@ -12,7 +12,7 @@
 global:
     # Sign up for a Mapzen API key to enjoy higher rate limits
     # https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys
-    sdk_mapzen_api_key: ''     # set this value to your Mapzen API key
+    sdk_mapzen_api_key: 'zFdp5U-JTXuK-RJBybOCVQ'     # set this value to your Mapzen API key
 
     #ux/ui
     ux_language: false             # l10n language code, trusting OSM in v0.10 tiles, fixed in v1.0 tiles
@@ -722,9 +722,12 @@ sources:
         #binary MVT format is used in StreetComplete as it is recommended for mobile
         #https://mapzen.com/documentation/vector-tiles/)
         # https has been causing problems for certain Android devices - https://github.com/westnordost/StreetComplete/issues/175
-        url:  http://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
+       # url:  http://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
+        url: https://tile.nextzen.org/tilezen/vector/v1/256/all/{z}/{x}/{y}.mvt
         #url: '//tile.dev.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.topojson'
         #url:  //localhost:8080/vector/all/{z}/{x}/{y}.json
+        url_params:
+                    api_key: zFdp5U-JTXuK-RJBybOCVQ
         max_zoom: 16
 
 #    # Only enable this for local debug, should not be enabled for prod (app inserts these at runtime)
